@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lichptit"
+version = "0.1.0"
+description = "Lịch PTIT – theo dõi lịch học, lịch thi và việc cần làm, nhắc trên iPhone"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.6",
+    "PyYAML>=6.0",
+    "icalendar>=5.0",
+    "tzdata",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+lichptit = "lichptit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
