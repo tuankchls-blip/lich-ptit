@@ -1,0 +1,43 @@
+# Buổi học. Hai dạng:
+#   - lặp hằng tuần: weekday (T2..T7, CN) + from + to
+#   - buổi lẻ:       date
+# Giờ ghi trong ngoặc kép: "19:00".
+# skip_dates: ngày nghỉ; extra_dates: buổi thêm (cùng giờ); flags: day_bu | trung_lich
+# link: link học online; room: ID/mật khẩu phòng (CHỈ đưa vào calendar.ics, không lên web).
+#
+# CẦN SỬA: from/to đang đặt tạm 2026-10-26 → 2026-12-27; sửa theo TKB dạng học kỳ.
+- id: ELE1433-tuan
+  course: ELE1433
+  weekday: T5
+  from: 2026-10-26   # CẦN SỬA
+  to: 2026-12-27     # CẦN SỬA
+  start: "19:00"
+  end: "21:50"
+  periods: [13, 15]
+  online: true
+  link: null         # dán "Link học online"
+  room: null
+
+- id: INT1339-tuan
+  course: INT1339
+  weekday: T6
+  from: 2026-10-26   # CẦN SỬA
+  to: 2026-12-27     # CẦN SỬA
+  start: "19:00"
+  end: "21:50"
+  periods: [13, 15]
+  online: true
+  link: null
+  room: null
+
+- id: INT1358-tuan
+  course: INT1358
+  weekday: CN
+  from: 2026-10-26   # CẦN SỬA
+  to: 2026-12-27     # CẦN SỬA
+  start: "19:00"
+  end: "21:50"
+  periods: [13, 15]
+  online: true
+  link: null
+  room: null

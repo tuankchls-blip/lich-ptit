@@ -1,0 +1,10 @@
+# Việc cần làm. Mẫu:
+# - id: task-dang-ky-tin-chi
+#   title: Đăng ký tín chỉ kỳ sau
+#   course: null            # mã môn nếu có
+#   due: 2026-12-05T23:59   # chỉ ghi ngày thì hiểu là 23:59
+#   priority: high          # high | normal | low
+#   status: todo            # todo | doing | done (done thì hết nhắc)
+#   source: manual          # manual | lms | qldt
+#   remind: [3d, 1d, 2h]    # mặc định: 1d, 3h
+[]

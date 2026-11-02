@@ -1,0 +1,22 @@
+# Lịch thi. Để date/start: null khi trường chưa công bố (không tạo sự kiện).
+# Nhắc mặc định: trước 14 ngày, 3 ngày và 20:00 tối hôm trước.
+- id: exam-ELE1433
+  course: ELE1433
+  date: null
+  start: null
+  place: null
+  bring: [CCCD, thẻ sinh viên]
+
+- id: exam-INT1339
+  course: INT1339
+  date: null
+  start: null
+  place: null
+  bring: [CCCD, thẻ sinh viên]
+
+- id: exam-INT1358
+  course: INT1358
+  date: null
+  start: null
+  place: null
+  bring: [CCCD, thẻ sinh viên]
